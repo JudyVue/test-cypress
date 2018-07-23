@@ -1,4 +1,4 @@
-// THIS TEST RUNNER IS MOCHA/CHAI, NOT JEST
+// THIS TEST RUNNER IS MOCHA/CHAI, NOT JEST, lalal
 
 describe('Visiting homepage', () => {
   it('HOMEPAGE: Should show us the homepage at "/" and click on dashboard', () => {
