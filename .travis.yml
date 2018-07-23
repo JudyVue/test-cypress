@@ -10,5 +10,5 @@ cache:
 install:
   - npm ci
 script:
-  - npm run-cypress
+  - $(npm bin)/cypress run --record
   - npm run watch
