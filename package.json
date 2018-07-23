@@ -15,7 +15,7 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint --fix **/*.js",
     "cypress": "cypress open",
-    "run-cypress": "wait-on http://localhost:8000 && cypress run"
+    "run-cypress": "cypress run"
   },
   "keywords": [],
   "author": "",
