@@ -10,5 +10,5 @@ cache:
 install:
   - npm ci
 script:
-  - npm run watch & wait-on http://localhost:8080
+  - ci-start
   - $(npm bin)/cypress run --record

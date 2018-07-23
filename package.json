@@ -14,7 +14,8 @@
     "watch": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint --fix **/*.js",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "ci-start": "npm run watch & wait-on http://localhost:8080"
   },
   "keywords": [],
   "author": "",
@@ -47,6 +48,7 @@
     "react-dom": "^16.4.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
+    "wait-on": "^2.1.0",
     "webpack": "^4.16.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4",
